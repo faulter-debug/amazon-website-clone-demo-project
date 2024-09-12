@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: left 15px; 
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.lan-logo{
+    background-image: url(usa.jpg);
+    background-size: cover;
+    height: 16px;
+    width: 21px;
+
+    
+}
+
+.nav-lan{
+    height: 50px;
+    width: 70px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.span{
+    
+    height: 33px;
+    width: 55.38px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    width: 383px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.acc{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-decoration: none;
+    color: white;
+}
+
+.size{
+    font-size: 12px;
+    height: 14px;
+}
+
+.sizee{
+    font-size: 14px;
+    font-weight:700;
+    height: 15px;
+}
+
+.ro{
+    height: 50px;
+    width: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-decoration: none;
+    color: white;
+}
+
+.hello{
+    width: 70px;
+}
+
+.list{
+    width: 113px;
+}
+
+.return{
+    width: 59;
+}
+
+
+.order{
+    width: 59;
+}
+
+.cart-icon{
+    height: 50px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.dog{
+   font-weight: 700;
+}
+
+#cat{
+    font-size: 30px;
+}
+
+
+/* next panel  */
+
+
+.nav-panel{
+    height: 39px;   
+    background-color: #232f3e;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu{
+    width: 58.42px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.m-all{
+    text-decoration: none;
+    color: white;
+    height: 12px;
+    width: 24px;
+    font-weight: 500;
+}
+
+.center-space{
+    height: 39px;
+    width: 1095.52px;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+.click{
+    color: white;
+    text-decoration: none;
+    height: 36px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   font-size: 13px;
+   font-weight: 700;
+   
+   
+}
+
+.store{
+    height: 39px;
+    width: 184px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}   
+
+/* image section */
+
+.shop-image{
+    background-image: url(shop\ books.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.under-image{
+    height: 40px;
+    width: 1058px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.content{
+    display: flex;
+    background-color:#9ab898;
+    height: 500px;
+    
+    
+}
+.fourbox{
+    height: 420px;
+    width: 339px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+#box1{
+    background-image: url(boxx1.jpg);
+    background-size: cover;
+}
+
+#box2{
+    background-image: url(boxx2.jpg);
+    background-size: cover;
+}
+
+#box3{
+    background-image: url(boxx3.jpg);
+    background-size: cover;
+}
+
+#box4{
+    background-image: url(boxx4.jpg);
+    background-size: cover;
+}
+
+#box5{
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+}
+#box6{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+}
+#box7{
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+}
+
+#box8{
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+}
+
+.un{
+    height: 320px;
+    width: 320px;
+    margin: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+
+ul a{
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+
